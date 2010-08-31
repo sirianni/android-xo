@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+    <info organisation="com.sirianni" module="xo"/>
+    
+    <configurations>
+        <conf name="default"/>
+        <conf name="sources"/>
+    </configurations>
+    
+    <dependencies>
+        <dependency conf="default;sources" org="roboguice" name="roboguice" rev="1.0"/>
+        <dependency conf="default;sources" org="com.google.inject" name="guice-no_aop" rev="2.0"/>
+        <dependency conf="default;sources" org="com.google.guava" name="guava" rev="r06"/>
+    </dependencies>
+    
+</ivy-module>
